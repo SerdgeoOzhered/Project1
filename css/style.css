@@ -1,0 +1,162 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Roboto:wght@400;700&display=swap'); */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Raleway-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    font: 400 19px/1 'Raleway' ,Arial,tahoma,verdana,sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+table,td,th{
+    border-collapse: collapse;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+input{
+    outline: none;
+}
+
+
+.wrapper{
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1160px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+.mobie-button{
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}  
+.mobie-button span{
+    display: block;   
+    height: 4px;
+    width: 100%;
+    background: #00c0ff;
+    position: absolute;
+    left: o;
+    top: 0;
+
+}
+.mobie-button:after{
+    top: auto;
+    bottom: 0;
+
+
+}
+
+@media (max-width:800px ){}
+    .mobie-button{
+        display:inline-flex ;
+    }
+    .navigation{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: auto;
+    
+    }
+
+
+
+
+
+
+
+
+
