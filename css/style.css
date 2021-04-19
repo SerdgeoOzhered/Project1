@@ -74,7 +74,7 @@
     box-sizing: border-box; 
 }
 body{
-    font: 400 19px/1 'Raleway' ,Arial,tahoma,verdana,sans-serif;
+    font: 400 19px/1 Raleway ,Arial,tahoma,verdana,sans-serif;
 
 }
 a{
@@ -120,7 +120,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 250px 0 160px;
+    padding: 200px 0 100px;
 }    
 .main .container {
         display: flex;
@@ -140,27 +140,40 @@ input{
     background: #000;
     width: 100%;
     position: absolute;
-    top: 40px;
-    left: 0px;
+    top: 51px;
+
+    
 }
+.logo{
+    padding:12px 0 0 17px;
+}    
+
 .navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 56px;
+     
 }
 .navigation__item {
     margin: 0 42px;
     background: #000;
-    font-size: 20px;
-    font-family: Roboto,Raleway,Arial, sans-serif;
+    font-size: 19px;
+    font-family: Raleway,Medium,Arial, sans-serif;
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 .navigation a {
     color: #00c0ff;
-    
+     
 }
+.SPORT1{
+    padding: 197px 0 0 27px;;
+
+}
+
 .pmain{
     padding: 80px 150px;
     color: #fff;
@@ -169,6 +182,7 @@ input{
     font-style: normal;
     font-display: swap;
     font-size: 18px;
+    
 }
 
 .btn{
@@ -182,7 +196,8 @@ input{
     padding: 8px 50px;
      border: 2px solid rgba(236, 232, 232);
     border-radius: 18px;
-    margin-bottom: 155PX;
+    
+     
 } 
  
 
@@ -582,7 +597,7 @@ input{
 
 }    
 .h3about{
-    margin-bottom: 50px;
+    
     font-weight: bold;
     font-style: normal;
     font-display: swap;
